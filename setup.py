@@ -14,10 +14,9 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name = 'ML Project',
+    name = 'Real Estate Price Prediction',
     version = '0.0.1',
     author = 'Darnesh',
-    author_email = 'darnesh@mail.com',
     packages = find_packages(),
     install_requires = get_requirements("requirements.txt")
 )
